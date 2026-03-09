@@ -2,28 +2,19 @@
 
 > A cyberpunk Pomodoro timer — single HTML file, zero dependencies, runs anywhere.
 
-![Observation Deck](https://img.shields.io/badge/version-1.0-00d4ff?style=flat-square&labelColor=06060f)
+[![Live Demo](https://img.shields.io/badge/▶%20LIVE%20DEMO-promodo--widget.netlify.app-00d4ff?style=for-the-badge&labelColor=06060f)](https://promodo-widget.netlify.app/)
+
 ![HTML](https://img.shields.io/badge/html-single%20file-bf00ff?style=flat-square&labelColor=06060f)
 ![No dependencies](https://img.shields.io/badge/dependencies-none-00ff9d?style=flat-square&labelColor=06060f)
 ![License](https://img.shields.io/badge/license-MIT-ff00aa?style=flat-square&labelColor=06060f)
 
 ---
 
-## Preview
+## 🚀 Try it now
 
-```
-╔══════════════════════════════════════════╗
-║ [OBSERVATION DECK]       SYSTEM NOMINAL  ║
-╠══════════════════════════════════════════╣
-║                                          ║
-║ > START       (25:00)        TIMER       ║
-║               FOCUS          STATUS      ║
-║               BREAK 5m       BG          ║
-║ R RESET                      VOICE       ║
-║               o o o o                    ║
-║                                          ║
-╚══════════════════════════════════════════╝
-```
+**[→ promodo-widget.netlify.app](https://promodo-widget.netlify.app/)**
+
+No install. No account. Open and start focusing.
 
 ---
 
@@ -70,7 +61,11 @@
 
 ## Quick Start
 
-No build step. No npm. No config.
+**Easiest — just open it in your browser:**
+
+**[→ promodo-widget.netlify.app](https://promodo-widget.netlify.app/)**
+
+**Or run it locally** — no build step, no npm, no config:
 
 ```bash
 git clone https://github.com/yourusername/observation-deck.git
@@ -79,7 +74,7 @@ open observation-deck.html   # macOS
 # or just double-click the file in your file manager
 ```
 
-Or drop it into any static host:
+The whole thing is one file:
 
 ```
 observation-deck/
@@ -90,7 +85,13 @@ observation-deck/
 
 ## Embedding in Notion
 
-link:https://promodo-widget.netlify.app/
+Use the live hosted version — no setup needed:
+
+1. In Notion: type `/embed`
+2. Paste `https://promodo-widget.netlify.app/`
+3. Done
+
+Or self-host by dropping `observation-deck.html` onto [Netlify Drop](https://app.netlify.com/drop) and embedding your own URL.
 
 ---
 
