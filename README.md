@@ -90,16 +90,7 @@ observation-deck/
 
 ## Embedding in Notion
 
-Notion blocks JavaScript — you need to host the file and use an embed block.
-
-**Recommended: Netlify Drop (free, instant)**
-
-1. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
-2. Drag `observation-deck.html` onto the page
-3. Copy the generated HTTPS URL
-4. In Notion: `/embed` → paste the URL
-
-**Alternatives:** GitHub Pages, Vercel, Cloudflare Pages — any static host works.
+link:https://promodo-widget.netlify.app/
 
 ---
 
